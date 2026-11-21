@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydraulics Engineers Club — ENSH</title>
+    <meta name="description" content="Club Scientifique de l'École Nationale Supérieure de l'Hydraulique (ENSH), Algérie. One club • One vision • Endless possibilities.">
+    <meta name="keywords" content="HEC, ENSH, Hydraulique, Club Scientifique, Algérie, Eau, Barrage, HEC-RAS">
+    
+<meta name="theme-color" content="#ffffff">
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('hec-theme');
+                if (!t) t = (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', t);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+        })();
+    </script>
+<link rel="icon" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="preload" as="image" href="images/banniere-hero.jpg" fetchpriority="high">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Caveat:wght@600;700&family=Cairo:wght@400;700&family=Sacramento&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Caveat:wght@600;700&family=Cairo:wght@400;700&family=Sacramento&family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-eng selection:text-white">
+<!-- Icones : Font Awesome Free (CC BY 4.0) https://fontawesome.com/license/free -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-arrow-right" viewBox="0 0 512 512"><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h370.7L297.3 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol><symbol id="i-atom" viewBox="0 0 448 512"><path d="M224 398.8c-11.8 5.1-23.4 9.7-34.9 13.5 16.7 33.8 31 35.7 34.9 35.7s18.1-1.9 34.9-35.7c-11.4-3.9-23.1-8.4-34.9-13.5M414 256c33 45.2 44.3 90.9 23.6 128-20.2 36.3-62.5 49.3-115.2 43.2-22 52.1-55.7 84.8-98.4 84.8s-76.4-32.7-98.4-84.8c-52.7 6.1-95-6.9-115.2-43.2C-10.3 346.9 1 301.2 34 256c-33-45.2-44.3-90.9-23.6-128 20.2-36.3 62.5-49.3 115.2-43.2C147.6 32.7 181.2 0 224 0s76.4 32.7 98.4 84.8c52.7-6.1 95 6.8 115.2 43.2 20.7 37.1 9.4 82.8-23.6 128m-65.8 67.4c-1.7 14.2-3.9 28-6.7 41.2 31.8 1.4 38.6-8.7 40.2-11.7 2.3-4.2 7-17.9-11.9-48.1q-10.2 9.45-21.6 18.6m-6.7-175.9c2.8 13.1 5 26.9 6.7 41.2q11.4 9.15 21.6 18.6c18.9-30.2 14.2-44 11.9-48.1-1.6-2.9-8.4-13-40.2-11.7m-82.6-47.8C242.1 65.9 227.9 64 224 64s-18.1 1.9-34.9 35.7c11.4 3.9 23.1 8.4 34.9 13.5 11.8-5.1 23.4-9.7 34.9-13.5m-159 88.9c1.7-14.3 3.9-28 6.7-41.2-31.8-1.4-38.6 8.7-40.2 11.7-2.3 4.2-7 17.9 11.9 48.1q10.2-9.45 21.6-18.6M78.2 304.8c-18.9 30.2-14.2 44-11.9 48.1 1.6 2.9 8.4 13 40.2 11.7-2.8-13.1-5-26.9-6.7-41.2q-11.4-9.15-21.6-18.6M304 256a80 80 0 1 0-160 0 80 80 0 1 0 160 0m-80-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64"/></symbol><symbol id="i-bars" viewBox="0 0 448 512"><path d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32m0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32m448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32"/></symbol><symbol id="i-calendar-days" viewBox="0 0 448 512"><path d="M128 0c17.7 0 32 14.3 32 32v32h128V32c0-17.7 14.3-32 32-32s32 14.3 32 32v32h32c35.3 0 64 28.7 64 64v288c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128c0-35.3 28.7-64 64-64h32V32c0-17.7 14.3-32 32-32M64 240v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16m128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16m144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM64 368v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16m144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16"/></symbol><symbol id="i-chevron-left" viewBox="0 0 320 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></symbol><symbol id="i-chevron-right" viewBox="0 0 320 512"><path d="M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></symbol><symbol id="i-circle-check" viewBox="0 0 512 512"><path d="M256 512a256 256 0 1 1 0-512 256 256 0 1 1 0 512m118-366.3c-10.7-7.8-25.7-5.4-33.5 5.3L221.1 315.2 169 263.1c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l72 72c5 5 11.8 7.5 18.8 7s13.4-4.1 17.5-9.8l135.9-187c7.8-10.7 5.4-25.7-5.3-33.5"/></symbol><symbol id="i-circle-info" viewBox="0 0 512 512"><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-32-352a32 32 0 1 1 64 0 32 32 0 1 1-64 0m-8 64h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-80c-13.3 0-24-10.7-24-24s10.7-24 24-24h24v-64h-24c-13.3 0-24-10.7-24-24s10.7-24 24-24"/></symbol><symbol id="i-envelope" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></symbol><symbol id="i-facebook" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"/></symbol><symbol id="i-facebook-f" viewBox="0 0 320 512"><path d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8z"/></symbol><symbol id="i-globe" viewBox="0 0 512 512"><path d="M351.9 280H161c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zm-191-48h190.9c-2.8-64.5-17.1-123.9-37.4-167.4-11.4-24.4-23.7-41.8-35.1-52.4C268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4m-48 0c3.5-85.6 25.6-165.1 57.9-217.3C78.7 47.3 10.9 131.2 1.5 232zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3zm111.4-48C501.9 131.2 434.1 47.3 342 14.7c32.3 52.2 54.4 131.7 57.9 217.3z"/></symbol><symbol id="i-graduation-cap" viewBox="0 0 576 512"><path d="m48 195.8 209.2 86.1c9.8 4 20.2 6.1 30.8 6.1s21-2.1 30.8-6.1l242.4-99.8c9-3.7 14.8-12.4 14.8-22.1s-5.8-18.4-14.8-22.1L318.8 38.1c-9.8-4-20.2-6.1-30.8-6.1s-21 2.1-30.8 6.1L14.8 137.9C5.8 141.6 0 150.3 0 160v296c0 13.3 10.7 24 24 24s24-10.7 24-24zm48 71.7V384c0 53 86 96 192 96s192-43 192-96V267.4l-142.9 58.9c-15.6 6.4-32.2 9.7-49.1 9.7s-33.5-3.3-49.1-9.7L96 267.4z"/></symbol><symbol id="i-instagram" viewBox="0 0 448 512"><path d="M224.3 141a115 115 0 1 0-.6 230 115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></symbol><symbol id="i-linkedin" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></symbol><symbol id="i-linkedin-in" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8c0-14.3 5.7-27.9 15.8-38S39.6 0 53.8 0s27.9 5.7 38 15.8 15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3M447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></symbol><symbol id="i-location-dot" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0s192 84.4 192 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0C120.1 450.9-.1 307.9-.1 188.6zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128"/></symbol><symbol id="i-moon" viewBox="0 0 512 512"><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9.4-9.8.6-14.8.6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4s-8.6-18.3-18.5-20.5C294.4 2.2 275.4 0 256 0"/></symbol><symbol id="i-paper-plane" viewBox="0 0 576 512"><path d="M536.4-26.3c9.8-3.5 20.6-1 28 6.3s9.8 18.2 6.3 28l-178 496.9c-5 13.9-18.1 23.1-32.8 23.1-14.2 0-27-8.6-32.3-21.7l-64.2-158c-4.5-11-2.5-23.6 5.2-32.6l94.5-112.4c5.1-6.1 4.7-15-.9-20.6s-14.6-6-20.6-.9l-112.4 94.3c-9.1 7.6-21.6 9.6-32.6 5.2L38.1 216.8c-13.1-5.3-21.7-18.1-21.7-32.3 0-14.7 9.2-27.8 23.1-32.8z"/></symbol><symbol id="i-phone" viewBox="0 0 512 512"><path d="M160.2 25c-7.9-18.9-28.5-28.9-48.1-23.6l-5.5 1.5C42 20.5-13.2 83.1 2.9 159.3 40 334.3 177.7 472 352.7 509.1 429 525.3 491.5 470 509.1 405.4l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2c-70.3-34.9-126.9-93.3-159.4-165l44.2-36c13.9-11.3 18.6-30.4 11.8-47z"/></symbol><symbol id="i-quote-left" viewBox="0 0 448 512"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64h-64c-35.3 0-64-28.7-64-64z"/></symbol><symbol id="i-share-nodes" viewBox="0 0 512 512"><path d="M384 192c53 0 96-43 96-96S437 0 384 0s-96 43-96 96c0 5.4.5 10.8 1.3 16l-129.7 72.1c-16.9-15-39.2-24.1-63.6-24.1-53 0-96 43-96 96s43 96 96 96c24.4 0 46.6-9.1 63.6-24.1L289.3 400c-.9 5.2-1.3 10.5-1.3 16 0 53 43 96 96 96s96-43 96-96-43-96-96-96c-24.4 0-46.6 9.1-63.6 24.1L190.7 272c.9-5.2 1.3-10.5 1.3-16s-.5-10.8-1.3-16l129.7-72.1c16.9 15 39.2 24.1 63.6 24.1"/></symbol><symbol id="i-sun" viewBox="0 0 576 512"><path d="M178.2-10.1c7.4-3.1 15.8-2.2 22.5 2.2l87.8 58.2 87.8-58.2c6.7-4.4 15.1-5.2 22.5-2.2S411.4-.5 413 7.3l20.9 103.2 103.2 20.9c7.8 1.6 14.4 7 17.4 14.3s2.2 15.8-2.2 22.5L494.1 256l58.2 87.8c4.4 6.7 5.2 15.1 2.2 22.5s-9.6 12.8-17.4 14.3l-103.3 20.8L413 504.7c-1.6 7.8-7 14.4-14.3 17.4s-15.8 2.2-22.5-2.2l-87.8-58.2-87.8 58.2c-6.7 4.4-15.1 5.2-22.5 2.2s-12.8-9.6-14.3-17.4L143 401.4 39.7 380.5c-7.8-1.6-14.4-7-17.4-14.3s-2.2-15.8 2.2-22.5L82.7 256l-58.2-87.8c-4.4-6.7-5.2-15.1-2.2-22.5s9.6-12.8 17.4-14.3L143 110.6 163.9 7.3c1.6-7.8 7-14.4 14.3-17.4M207.6 256a80.4 80.4 0 1 1 160.8 0 80.4 80.4 0 1 1-160.8 0m208.8 0a128.4 128.4 0 1 0-256.8 0 128.4 128.4 0 1 0 256.8 0"/></symbol><symbol id="i-tiktok" viewBox="0 0 448 512"><path d="M448.5 209.9c-44 .1-87-13.6-122.8-39.2v178.7c0 33.1-10.1 65.4-29 92.6s-45.6 48-76.6 59.6-64.8 13.5-96.9 5.3-60.9-25.9-82.7-50.8-35.3-56-39-88.9 2.9-66.1 18.6-95.2 40-52.7 69.6-67.7 62.9-20.5 95.7-16v89.9c-15-4.7-31.1-4.6-46 .4s-27.9 14.6-37 27.3-14 28.1-13.9 43.9 5.2 31 14.5 43.7 22.4 22.1 37.4 26.9 31.1 4.8 46-.1 28-14.4 37.2-27.1 14.2-28.1 14.2-43.8V0h88c-.1 7.4.6 14.9 1.9 22.2 3.1 16.3 9.4 31.9 18.7 45.7s21.3 25.6 35.2 34.6c19.9 13.1 43.2 20.1 67 20.1V210z"/></symbol><symbol id="i-users" viewBox="0 0 640 512"><path d="M320 16a104 104 0 1 1 0 208 104 104 0 1 1 0-208M96 88a72 72 0 1 1 0 144 72 72 0 1 1 0-144M0 416c0-70.7 57.3-128 128-128 12.8 0 25.2 1.9 36.9 5.4C132 330.2 112 378.8 112 432v16c0 11.4 2.4 22.2 6.7 32H32c-17.7 0-32-14.3-32-32zm521.3 64c4.3-9.8 6.7-20.6 6.7-32v-16c0-53.2-20-101.8-52.9-138.6 11.7-3.5 24.1-5.4 36.9-5.4 70.7 0 128 57.3 128 128v32c0 17.7-14.3 32-32 32zM472 160a72 72 0 1 1 144 0 72 72 0 1 1-144 0M160 432c0-88.4 71.6-160 160-160s160 71.6 160 160v16c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32z"/></symbol><symbol id="i-xmark" viewBox="0 0 384 512"><path d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l137.3-137.4 137.4 137.3c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7z"/></symbol><symbol id="i-youtube" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></symbol></svg>
+
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 shadow-sm border-b border-blue-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Logo & Title -->
+            <a href="#accueil" onclick="navigate('accueil')" class="flex items-center space-x-3 rtl:space-x-reverse group">
+                <div class="logo-box w-12 h-12 rounded-xl bg-white flex items-center justify-center text-navy shadow-md group-hover:scale-105 transition-transform overflow-hidden border border-slate-200">
+                    <img width="256" height="237" decoding="async" id="site-logo-img" src="images/logo.png" alt="Logo HEC ENSH" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <span class="text-lg sm:text-xl font-extrabold text-navy tracking-tight block leading-tight">HYDRAULICS ENGINEERS CLUB </span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden lg:flex items-center space-x-1 rtl:space-x-reverse">
+                <a href="#accueil" onclick="navigate('accueil')" class="nav-link px-3.5 py-2 rounded-lg text-sm font-semibold text-navy hover:text-eng hover:bg-blue-50/80 transition-all active-nav" data-i18n="nav_home">Accueil</a>
+                <a href="#apropos" onclick="navigate('apropos')" class="nav-link px-3.5 py-2 rounded-lg text-sm font-semibold text-navy hover:text-eng hover:bg-blue-50/80 transition-all" data-i18n="nav_about">À propos</a>
+                <a href="#activites" onclick="navigate('activites')" class="nav-link px-3.5 py-2 rounded-lg text-sm font-semibold text-navy hover:text-eng hover:bg-blue-50/80 transition-all" data-i18n="nav_activities">Activités</a>
+                <a href="#galerie" onclick="navigate('galerie')" class="nav-link px-3.5 py-2 rounded-lg text-sm font-semibold text-navy hover:text-eng hover:bg-blue-50/80 transition-all" data-i18n="nav_gallery">Galerie</a>
+                <a href="#equipe" onclick="navigate('equipe')" class="nav-link px-3.5 py-2 rounded-lg text-sm font-semibold text-navy hover:text-eng hover:bg-blue-50/80 transition-all" data-i18n="nav_team">Équipe</a>
+                <a href="#contact" onclick="navigate('contact')" class="nav-link px-3.5 py-2 rounded-lg text-sm font-semibold text-navy hover:text-eng hover:bg-blue-50/80 transition-all" data-i18n="nav_contact">Contact</a>
+            </nav>
+
+            <!-- Right Controls -->
+            <div class="hidden md:flex items-center space-x-4 rtl:space-x-reverse">
+                <div class="flex items-center space-x-2.5 rtl:space-x-reverse text-navy">
+                    <a href="#" data-social="instagram" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white transition-colors"><svg class="ic text-sm" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+                    <a href="#" data-social="facebook" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white transition-colors"><svg class="ic text-sm" aria-hidden="true"><use href="#i-facebook-f"/></svg></a>
+                    <a href="#" data-social="linkedin" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white transition-colors"><svg class="ic text-sm" aria-hidden="true"><use href="#i-linkedin-in"/></svg></a>
+                    <a href="#" data-social="youtube" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white transition-colors"><svg class="ic text-sm" aria-hidden="true"><use href="#i-youtube"/></svg></a>
+                    <a href="#" data-social="tiktok" target="_blank" rel="noopener" aria-label="TikTok" class="w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white transition-colors"><svg class="ic text-sm" aria-hidden="true"><use href="#i-tiktok"/></svg></a>
+                </div>
+
+                <div class="h-5 w-px bg-slate-200"></div>
+
+                <button onclick="toggleTheme()" class="theme-toggle" id="theme-btn" type="button" aria-label="Mode sombre" title="Mode sombre">
+                    <svg class="ic theme-icon-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="ic theme-icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+                </button>
+                <button onclick="toggleLanguage()" id="lang-btn" class="px-3 py-1.5 rounded-lg border border-slate-200 text-xs font-bold text-navy hover:border-eng hover:text-eng transition-all bg-waterbg flex items-center gap-1.5">
+                    <svg class="ic text-eng" aria-hidden="true"><use href="#i-globe"/></svg>
+                    <span id="lang-text">AR</span>
+                </button>
+            </div>
+
+            <!-- Mobile Burger -->
+            <div class="flex items-center space-x-3 rtl:space-x-reverse lg:hidden">
+                <button onclick="toggleTheme()" class="theme-toggle" id="theme-btn-mobile" type="button" aria-label="Mode sombre" title="Mode sombre">
+                    <svg class="ic theme-icon-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="ic theme-icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+                </button>
+                <button onclick="toggleLanguage()" class="px-2.5 py-1 rounded-md border border-slate-200 text-xs font-bold text-navy bg-waterbg">
+                    <span id="lang-text-mobile">AR</span>
+                </button>
+                <button onclick="toggleMobileMenu()" class="w-10 h-10 rounded-xl bg-waterbg flex items-center justify-center text-navy hover:bg-eng hover:text-white transition-colors focus:outline-none">
+                    <svg id="mobile-menu-icon" class="ic text-lg" aria-hidden="true"><use href="#i-bars"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-2 shadow-xl animate-fadeIn">
+            <a href="#accueil" onclick="navigate('accueil'); toggleMobileMenu();" class="block px-4 py-2.5 rounded-lg font-semibold text-navy hover:bg-waterbg" data-i18n="nav_home">Accueil</a>
+            <a href="#apropos" onclick="navigate('apropos'); toggleMobileMenu();" class="block px-4 py-2.5 rounded-lg font-semibold text-navy hover:bg-waterbg" data-i18n="nav_about">À propos</a>
+            <a href="#activites" onclick="navigate('activites'); toggleMobileMenu();" class="block px-4 py-2.5 rounded-lg font-semibold text-navy hover:bg-waterbg" data-i18n="nav_activities">Activités</a>
+            <a href="#galerie" onclick="navigate('galerie'); toggleMobileMenu();" class="block px-4 py-2.5 rounded-lg font-semibold text-navy hover:bg-waterbg" data-i18n="nav_gallery">Galerie</a>
+            <a href="#equipe" onclick="navigate('equipe'); toggleMobileMenu();" class="block px-4 py-2.5 rounded-lg font-semibold text-navy hover:bg-waterbg" data-i18n="nav_team">Équipe</a>
+            <a href="#contact" onclick="navigate('contact'); toggleMobileMenu();" class="block px-4 py-2.5 rounded-lg font-semibold text-navy hover:bg-waterbg" data-i18n="nav_contact">Contact</a>
+            <div class="pt-2 flex justify-between items-center border-t border-slate-100 px-4">
+                <div class="flex space-x-3 text-navy">
+                    <a href="#" data-social="instagram" target="_blank"><svg class="ic text-lg" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+                    <a href="#" data-social="facebook" target="_blank"><svg class="ic text-lg" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+                    <a href="#" data-social="linkedin" target="_blank"><svg class="ic text-lg" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+                    <a href="#" data-social="youtube" target="_blank"><svg class="ic text-lg" aria-hidden="true"><use href="#i-youtube"/></svg></a>
+                    <a href="#" data-social="tiktok" target="_blank" aria-label="TikTok"><svg class="ic text-lg" aria-hidden="true"><use href="#i-tiktok"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN VIEWS CONTAINER -->
+    <main class="flex-grow pt-20">
+
+        <!-- ================= ACCUEIL ================= -->
+        <div id="view-accueil" class="view-section">
+            <section id="hero-section" class="relative min-h-[85vh] flex items-center bg-cover bg-center overflow-hidden" style="background-image: url('images/banniere-hero.jpg');">
+                <div class="absolute inset-0 hero-gradient"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-24 water-wave opacity-35 pointer-events-none"></div>
+
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-8 text-white space-y-6">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-eng/30 border border-eng/40 text-cyan text-xs font-bold uppercase tracking-wider">
+                            <svg class="ic" aria-hidden="true"><use href="#i-atom"/></svg> <span data-i18n="hero_label">Club Scientifique ENSH</span>
+                        </div>
+                        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-none">
+                            HYDRAULICS <span class="text-cyan">ENGINEERS CLUB</span>
+                        </h1>
+                        <p class="text-lg sm:text-2xl font-light text-blue-100 max-w-2xl italic">
+                            “<span data-i18n="hero_tagline">One club • One vision • Endless possibilities.</span>”
+                        </p>
+                        <p class="text-slate-200 text-sm sm:text-base max-w-2xl leading-relaxed" data-i18n="hero_desc">
+                            Le HYDRAULICS ENGINEERS CLUB est un club scientifique de l’École Nationale Supérieure de l’Hydraulique, dédié aux sciences de l’eau, à l’hydraulique, à l’innovation et au développement des compétences des étudiants.
+                        </p>
+                        <div class="flex flex-wrap gap-4 pt-4">
+                            <a href="#activites" onclick="navigate('activites')" class="px-8 py-4 rounded-xl bg-cyan text-navy font-bold hover:bg-white transition-all shadow-lg hover:shadow-cyan/50 transform hover:-translate-y-0.5 flex items-center gap-2">
+                                <span data-i18n="btn_discover">Découvrir</span> <svg class="ic rtl:rotate-180" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+                            </a>
+                            <a href="#activites" onclick="navigate('activites')" class="px-8 py-4 rounded-xl bg-white/10 border border-white/30 text-white font-bold hover:bg-white/20 transition-all flex items-center gap-2">
+                                <span data-i18n="btn_activities">Nos activités</span>
+                            </a>
+                            </div>
+                    </div>
+                    
+                    <div class="lg:col-span-4 hidden lg:block">
+                        <div class="hero-quote">
+                            <p class="hq-text" data-i18n="slogan_title">Chaque goutte compte,
+chaque génération en dépend </p>
+                            <svg class="hq-brush" viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true">
+                                <path d="M4 22 C70 12, 170 6, 296 4 C190 11, 90 18, 4 22 Z" fill="#fff"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FEATURE STRIP -->
+            <section class="bg-waterbg py-12 border-y border-slate-200/60">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="flex items-start space-x-4 rtl:space-x-reverse bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 rounded-xl bg-eng/10 text-eng flex items-center justify-center text-xl shrink-0"><svg class="ic" aria-hidden="true"><use href="#i-graduation-cap"/></svg></div>
+                            <div>
+                                <h4 class="font-bold text-navy text-base" data-i18n="feat_1_title">Formation</h4>
+                                <p class="text-xs text-slate-600 mt-1" data-i18n="feat_1_desc">Échanger et apprendre à travers des ateliers spécialisés.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4 rtl:space-x-reverse bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 rounded-xl bg-cyan/20 text-cyan flex items-center justify-center text-xl shrink-0"><svg class="ic" aria-hidden="true"><use href="#i-calendar-days"/></svg></div>
+                            <div>
+                                <h4 class="font-bold text-navy text-base" data-i18n="feat_2_title">Événements</h4>
+                                <p class="text-xs text-slate-600 mt-1" data-i18n="feat_2_desc">Conférences, ateliers, et sorties sur le terrain.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4 rtl:space-x-reverse bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 rounded-xl bg-cyan/20 text-cyan flex items-center justify-center text-xl shrink-0"><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg></div>
+                            <div>
+                                <h4 class="font-bold text-navy text-base" data-i18n="feat_4_title">Communauté</h4>
+                                <p class="text-xs text-slate-600 mt-1" data-i18n="feat_4_desc">Une équipe soudée, passionnée et engagée.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT SUMMARY -->
+            <section class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+                        <div class="space-y-6">
+                            <span class="text-eng font-bold text-xs uppercase tracking-widest bg-eng/10 px-3 py-1 rounded-md" data-i18n="about_tag">À propos de nous</span>
+                            
+                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base" data-i18n="about_text">
+                                Le HYDRAULICS ENGINEERS CLUB est un club scientifique rattaché à l’École Nationale Supérieure de l’Hydraulique (ENSH). Notre objectif est de promouvoir la culture scientifique et technique autour de l'eau et de l'hydraulique, tout en favorisant l'échange, l'innovation et le développement des compétences des étudiants.
+                            </p>
+                            <div>
+                                <a href="#apropos" onclick="navigate('apropos')" class="inline-flex items-center gap-2 text-eng font-bold hover:text-navy transition-colors">
+                                    <span data-i18n="read_more">En savoir plus</span> <svg class="ic rtl:rotate-180" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-waterbg">
+                                <img loading="lazy" decoding="async" src="images/ensh-campus.jpg" alt="ENSH Campus &amp; Hydraulics" class="w-full h-80 object-cover transform hover:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent flex items-end p-6">
+                                    <span class="text-white font-bold text-sm bg-navy/80 px-3 py-1 rounded-lg" data-i18n="img_caption_ensh">École Nationale Supérieure de l'Hydraulique</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="quote-script"><p data-i18n="quote_title">Les rivières ne connaissent pas
+le chemin facile, pourtant elles trouvent
+toujours leur chemin vers la mer</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- NEXT ACTIVITIES -->
+            <section class="py-20 bg-waterbg">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                        <div>
+                            <span class="text-eng font-bold text-xs uppercase tracking-widest bg-eng/10 px-3 py-1 rounded-md" data-i18n="act_tag">Agenda</span>
+                            <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight mt-2" data-i18n="act_section_title">Nos prochaines activités</h2>
+                        </div>
+                        <a href="#activites" onclick="navigate('activites')" class="mt-4 md:mt-0 inline-flex items-center gap-2 text-eng font-bold hover:text-navy transition-colors">
+                            <span data-i18n="see_all_act">Voir toutes les activités</span> <svg class="ic rtl:rotate-180" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+                        </a>
+                    </div>
+                    <div id="home-activities-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+                </div>
+            </section>
+
+            <!-- TEAM PREVIEW -->
+            <section class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center max-w-2xl mx-auto mb-16">
+                        <span class="text-eng font-bold text-xs uppercase tracking-widest bg-eng/10 px-3 py-1 rounded-md" data-i18n="team_tag">Leadership</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight mt-2" data-i18n="team_section_title">Notre équipe dirigeante</h2>
+                        <p class="text-slate-600 text-sm mt-3" data-i18n="team_section_desc">Les étudiants engagés qui font vivre le club au quotidien.</p>
+                    </div>
+                    <div id="home-team-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"></div>
+                    <div class="text-center mt-12">
+                        <a href="#equipe" onclick="navigate('equipe')" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-navy text-white font-bold hover:bg-navy-light transition-all shadow-md">
+                            <span data-i18n="btn_discover_team">Découvrir l’équipe complète</span> <svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+                    </div>
+
+        <!-- ================= À PROPOS ================= -->
+        <div id="view-apropos" class="view-section bgpage hidden">
+            <section class="page-hero relative py-20">
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+                    <span class="inline-flex px-3.5 py-1.5 rounded-full bg-eng/30 border border-eng/40 text-cyan text-xs font-bold uppercase tracking-wider" data-i18n="about_badge">Présentation</span>
+                    <h1 class="text-4xl sm:text-5xl font-black text-white" data-i18n="about_page_title">À propos du Hydraulics Engineers Club</h1>
+                    <p class="text-blue-100 max-w-3xl mx-auto text-base sm:text-lg" data-i18n="about_page_subtitle">Découvrez l'histoire, la vision et les missions du club scientifique de l'ENSH.</p>
+                </div>
+            </section>
+            <section class="py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        <div class="space-y-6">
+                            <h2 class="text-3xl font-extrabold text-navy" data-i18n="mission_title">Notre Mission &amp; Nos Objectifs</h2>
+                            <p class="text-slate-600 leading-relaxed" data-i18n="mission_desc1">
+                                Le <strong>Hydraulics Engineers Club (HEC)</strong> est un club scientifique créé par et pour les étudiants de l'École Nationale Supérieure de l'Hydraulique (ENSH) à Blida, Algérie. Nous œuvrons pour le développement des compétences techniques et douces des futurs ingénieurs.
+                            </p>
+                            <p class="text-slate-600 leading-relaxed" data-i18n="mission_desc2">
+                                À travers des ateliers de modélisation (HEC-RAS, ArcGIS), des visites de barrages, des conférences avec des experts et des projets environnementaux, nous connectons la théorie académique aux réalités du terrain.
+                            </p>
+                            <div class="signature-stat pt-4">
+                                <div class="sig-num">+50</div>
+                                <div class="sig-label" data-i18n="stat_members">Membres Actifs</div>
+                                <svg class="sig-brush" viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true"><path d="M4 22 C70 12, 170 6, 296 4 C190 11, 90 18, 4 22 Z" fill="currentColor"/></svg>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <img loading="lazy" decoding="async" src="images/ensh-campus.jpg" alt="Students Engineering" class="rounded-3xl shadow-2xl w-full h-[400px] object-cover">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SPONSORS -->
+            <section id="sponsors-section" class="sponsors-section">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="sponsors-title" data-i18n="sponsors_title">Nos Sponsors</h2>
+                    <div class="sponsors-carousel">
+                        <button type="button" class="sp-arrow sp-prev" onclick="sponsorScroll(-1)" aria-label="Précédent"><svg class="ic rtl:rotate-180" aria-hidden="true"><use href="#i-chevron-left"/></svg></button>
+                        <div id="sponsors-grid" class="sponsors-track"></div>
+                        <button type="button" class="sp-arrow sp-next" onclick="sponsorScroll(1)" aria-label="Suivant"><svg class="ic rtl:rotate-180" aria-hidden="true"><use href="#i-chevron-right"/></svg></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= ACTIVITÉS ================= -->
+        <div id="view-activites" class="view-section bgpage hidden">
+            <section class="page-hero relative py-20">
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+                    <span class="inline-flex px-3.5 py-1.5 rounded-full bg-eng/30 border border-eng/40 text-cyan text-xs font-bold uppercase tracking-wider" data-i18n="activities_badge">Agenda &amp; Événements</span>
+                    <h1 class="text-4xl sm:text-5xl font-black text-white" data-i18n="activities_page_title">Nos Activités &amp; Événements</h1>
+                    <p class="text-blue-100 max-w-2xl mx-auto text-base" data-i18n="activities_page_subtitle">Explorez nos ateliers, formations, conférences et sorties techniques.</p>
+                </div>
+            </section>
+            <section class="py-16">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+                    <div id="full-activities-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= GALERIE ================= -->
+        <div id="view-galerie" class="view-section bgpage hidden">
+            <section class="page-hero relative py-20">
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+                    <span class="inline-flex px-3.5 py-1.5 rounded-full bg-eng/30 border border-eng/40 text-cyan text-xs font-bold uppercase tracking-wider" data-i18n="gallery_badge">Médiathèque</span>
+                    <h1 class="text-4xl sm:text-5xl font-black text-white" data-i18n="gallery_page_title">Photos &amp; Souvenirs</h1>
+                    <p class="text-blue-100 max-w-2xl mx-auto text-base" data-i18n="gallery_page_subtitle">Chaque image raconte une expérience, chaque événement marque une étape de notre parcours scientifique</p>
+                </div>
+            </section>
+            <section class="py-16">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <button onclick="filterGallery('Événement', this)" class="px-4 py-2 rounded-xl text-xs font-bold bg-waterbg text-navy hover:bg-slate-100 filter-gal-btn" data-i18n="cat_event">Événements</button>
+                        <button onclick="filterGallery('Sortie technique', this)" class="px-4 py-2 rounded-xl text-xs font-bold bg-waterbg text-navy hover:bg-slate-100 filter-gal-btn" data-i18n="cat_visit">Sorties techniques</button>
+                    </div>
+                    <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= ÉQUIPE ================= -->
+        <div id="view-equipe" class="view-section bgpage hidden">
+            <section class="page-hero relative py-20">
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+                    <span class="inline-flex px-3.5 py-1.5 rounded-full bg-eng/30 border border-eng/40 text-cyan text-xs font-bold uppercase tracking-wider" data-i18n="team_badge">Bureau &amp; Membres</span>
+                    <h1 class="text-4xl sm:text-5xl font-black text-white" data-i18n="team_page_title">Notre Équipe </h1>
+                    <p class="text-blue-100 max-w-2xl mx-auto text-base" data-i18n="team_page_subtitle"> Nos chefs de département </p>
+                </div>
+            </section>
+            <section class="py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div id="full-team-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"></div>
+                </div>
+            </section>
+        </div>
+
+                <!-- ================= CONTACT ================= -->
+        <div id="view-contact" class="view-section bgpage hidden">
+            <section class="page-hero relative py-20">
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+                    <span class="inline-flex px-3.5 py-1.5 rounded-full bg-eng/30 border border-eng/40 text-cyan text-xs font-bold uppercase tracking-wider" data-i18n="contact_badge">Restons en contact</span>
+                    <h1 class="text-4xl sm:text-5xl font-black text-white" data-i18n="contact_page_title">CONTACT US</h1>
+                    <p class="text-blue-100 max-w-2xl mx-auto text-base" data-i18n="contact_page_subtitle">Une question, un partenariat ou une suggestion ? Écrivez-nous.</p>
+                </div>
+            </section>
+            <section class="py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                        <div class="space-y-8">
+                            <h2 class="text-2xl font-extrabold text-navy" data-i18n="contact_info_title">Informations institutionnelles</h2>
+                            <div class="space-y-6">
+                                <div class="flex items-start space-x-4 rtl:space-x-reverse">
+                                    <div class="w-12 h-12 rounded-xl bg-waterbg text-eng flex items-center justify-center text-xl shrink-0"><svg class="ic" aria-hidden="true"><use href="#i-location-dot"/></svg></div>
+                                    <div>
+                                        <h4 class="font-bold text-navy text-sm" data-i18n="addr_title">Adresse</h4>
+                                        <p class="text-xs text-slate-600 mt-1" data-i18n="addr_text">École Nationale Supérieure de l’Hydraulique (ENSH), BP 31 Blida, Algérie.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4 rtl:space-x-reverse">
+                                    <div class="w-12 h-12 rounded-xl bg-waterbg text-eng flex items-center justify-center text-xl shrink-0"><svg class="ic" aria-hidden="true"><use href="#i-envelope"/></svg></div>
+                                    <div>
+                                        <h4 class="font-bold text-navy text-sm" data-i18n="email_title">E-mail</h4>
+                                        <p class="text-xs text-slate-600 mt-1">heclub@ensh.dz</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4 rtl:space-x-reverse">
+                                    <div class="w-12 h-12 rounded-xl bg-waterbg text-eng flex items-center justify-center text-xl shrink-0"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg></div>
+                                    <div>
+                                        <h4 class="font-bold text-navy text-sm" data-i18n="phone_title">Téléphone</h4>
+                                        <a id="contact-phone" href="#" dir="ltr" class="text-xs text-slate-600 mt-1 inline-block hover:text-eng transition-colors"></a>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4 rtl:space-x-reverse">
+                                    <div class="w-12 h-12 rounded-xl bg-waterbg text-eng flex items-center justify-center text-xl shrink-0"><svg class="ic" aria-hidden="true"><use href="#i-share-nodes"/></svg></div>
+                                    <div>
+                                        <h4 class="font-bold text-navy text-sm" data-i18n="social_title">Réseaux Sociaux</h4>
+                                        <div class="flex space-x-3 rtl:space-x-reverse mt-2 text-navy">
+                                            <a href="#" data-social="instagram" class="social-ico w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white"><svg class="ic" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+                                            <a href="#" data-social="facebook" class="social-ico w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white"><svg class="ic" aria-hidden="true"><use href="#i-facebook-f"/></svg></a>
+                                            <a href="#" data-social="linkedin" class="social-ico w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white"><svg class="ic" aria-hidden="true"><use href="#i-linkedin-in"/></svg></a>
+                                            <a href="#" data-social="youtube" class="social-ico w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white"><svg class="ic" aria-hidden="true"><use href="#i-youtube"/></svg></a>
+                                            <a href="#" data-social="tiktok" aria-label="TikTok" class="social-ico w-8 h-8 rounded-full bg-waterbg flex items-center justify-center hover:bg-eng hover:text-white"><svg class="ic" aria-hidden="true"><use href="#i-tiktok"/></svg></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-waterbg border border-blue-100 p-8 rounded-3xl shadow-xl">
+                            <form id="contact-form" onsubmit="handleContactSubmit(event)" class="space-y-6">
+                                <div>
+                                    <label class="block text-xs font-bold text-navy uppercase tracking-wider mb-2" data-i18n="form_name">Nom complet *</label>
+                                    <input type="text" id="c-name" required="" data-i18n-placeholder="ph_name" placeholder="Votre nom" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm bg-white focus:outline-none focus:border-eng">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-navy uppercase tracking-wider mb-2" data-i18n="form_email">Adresse e-mail *</label>
+                                    <input type="email" id="c-email" required="" autocomplete="email" inputmode="email" pattern="[A-Za-z0-9._%+\-]+@ensh\.dz" title="L'adresse e-mail doit se terminer par @ensh.dz" data-i18n-placeholder="email_placeholder" placeholder="prenom.nom@ensh.dz" oninput="validateEmailField()" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm bg-white focus:outline-none focus:border-eng">
+                                    <p id="c-email-hint" class="field-hint mt-2"><svg class="ic" aria-hidden="true"><use href="#i-circle-info"/></svg> <span id="c-email-hint-text" data-i18n="email_hint">Seules les adresses @ensh.dz sont acceptées.</span></p>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-navy uppercase tracking-wider mb-2" data-i18n="form_subject">Sujet *</label>
+                                    <input type="text" id="c-subject" required="" data-i18n-placeholder="ph_subject" placeholder="Sujet de votre message" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm bg-white focus:outline-none focus:border-eng">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-navy uppercase tracking-wider mb-2" data-i18n="form_message">Message *</label>
+                                    <textarea id="c-msg" rows="4" required="" data-i18n-placeholder="ph_msg" placeholder="Votre message..." class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm bg-white focus:outline-none focus:border-eng"></textarea>
+                                </div>
+                                <button type="submit" class="w-full py-4 rounded-xl bg-navy text-white font-bold hover:bg-navy-light transition-all shadow-md flex items-center justify-center gap-2">
+                                    <span data-i18n="btn_send">Envoyer le message</span> <svg class="ic" aria-hidden="true"><use href="#i-paper-plane"/></svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= CONFIDENTIALITE ================= -->
+        <div id="view-confidentialite" class="view-section bgpage hidden">
+            <section class="page-hero relative py-20">
+                <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+                    <h1 class="text-4xl font-black text-white" data-i18n="privacy_title">Politique de Confidentialité</h1>
+                    <p class="text-blue-100 max-w-2xl mx-auto text-base" data-i18n="privacy_sub">Protection des données et engagement du HEC ENSH.</p>
+                </div>
+            </section>
+            <section class="py-16 max-w-4xl mx-auto px-4 space-y-6 text-slate-700 leading-relaxed text-sm">
+                <h3 class="text-xl font-bold text-navy" data-i18n="priv_h1">1. Collecte des données</h3>
+                <p data-i18n="priv_p1">Les informations recueillies via le formulaire de contact (nom, e-mail, département) sont exclusivement destinées au bureau exécutif du Hydraulics Engineers Club dans le cadre de la gestion interne des membres et des activités.</p>
+                <h3 class="text-xl font-bold text-navy" data-i18n="priv_h2">2. Utilisation et Stockage</h3>
+                <p data-i18n="priv_p2">Aucune donnée personnelle n'est cédée à des tiers. Le formulaire fonctionne en mode démonstration et stocke les entrées localement dans votre navigateur pour une expérience interactive complète.</p>
+                <h3 class="text-xl font-bold text-navy" data-i18n="priv_h3">3. Droits des utilisateurs</h3>
+                <p data-i18n="priv_p3">Conformément aux réglementations en vigueur, vous disposez d'un droit d'accès, de rectification et de suppression de vos données en contactant directement heclub@ensh.dz.</p>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy-dark text-white pt-16 pb-12 border-t border-navy-light/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <div class="lg:col-span-2 space-y-4">
+                    <div class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <div class="logo-box w-10 h-10 rounded-xl bg-white flex items-center justify-center text-navy shadow-md overflow-hidden border border-slate-200">
+                            <img width="256" height="237" decoding="async" src="images/logo.png" alt="Logo HEC ENSH" class="w-full h-full object-cover">
+                        </div>
+                        <span class="text-xl font-extrabold tracking-tight">HYDRAULICS ENGINEERS CLUB </span>
+                    </div>
+                    <p class="text-xs text-blue-200" data-i18n="footer_subtitle">Club Scientifique de l'École Nationale Supérieure de l'Hydraulique (ENSH).</p>
+                    <p class="text-xs font-semibold text-cyan italic">“<span data-i18n="hero_tagline">One club • One vision • Endless possibilities.</span>”</p>
+                </div>
+                <div class="space-y-3">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-cyan" data-i18n="footer_quick">Liens rapides</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#accueil" onclick="navigate('accueil')" class="hover:text-cyan transition-colors" data-i18n="nav_home">Accueil</a></li>
+                        <li><a href="#apropos" onclick="navigate('apropos')" class="hover:text-cyan transition-colors" data-i18n="nav_about">À propos</a></li>
+                        <li><a href="#activites" onclick="navigate('activites')" class="hover:text-cyan transition-colors" data-i18n="nav_activities">Activités</a></li>
+                        <li><a href="#galerie" onclick="navigate('galerie')" class="hover:text-cyan transition-colors" data-i18n="nav_gallery">Galerie</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-3">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-cyan" data-i18n="footer_comm">Communauté</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#equipe" onclick="navigate('equipe')" class="hover:text-cyan transition-colors" data-i18n="nav_team">Équipe</a></li>
+                        <li><a href="#contact" onclick="navigate('contact')" class="hover:text-cyan transition-colors" data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-navy/50 flex flex-col sm:flex-row justify-between items-center text-xs text-blue-300 gap-4">
+                <p>© <span id="current-year">2026</span> HYDRAULICS ENGINEERS CLUB. <span data-i18n="all_rights">Tous droits réservés.</span></p>
+                <div class="flex items-center space-x-6 rtl:space-x-reverse">
+                    <a href="#confidentialite" onclick="navigate('confidentialite')" class="hover:text-cyan transition-colors" data-i18n="privacy_link">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL: EVENT DETAILS -->
+    <div id="event-modal" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-8 space-y-6 relative shadow-2xl animate-fadeIn">
+            <button onclick="closeEventModal()" class="absolute top-6 right-6 rtl:right-auto rtl:left-6 w-8 h-8 rounded-full bg-waterbg flex items-center justify-center text-navy hover:bg-slate-200">
+                <svg class="ic" aria-hidden="true"><use href="#i-xmark"/></svg>
+            </button>
+            <div id="modal-content" class="space-y-4"></div>
+        </div>
+    </div>
+
+    <!-- MODAL: LIGHTBOX -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 hidden bg-black/90 flex items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/10 text-white flex items-center justify-center text-xl hover:bg-white/20">
+            <svg class="ic" aria-hidden="true"><use href="#i-xmark"/></svg>
+        </button>
+        <button onclick="lightboxNav(-1)" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 text-white text-xl hover:bg-white/20"><svg class="ic" aria-hidden="true"><use href="#i-chevron-left"/></svg></button>
+        <button onclick="lightboxNav(1)" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 text-white text-xl hover:bg-white/20"><svg class="ic" aria-hidden="true"><use href="#i-chevron-right"/></svg></button>
+        <div class="max-w-4xl w-full text-center space-y-4">
+            <img id="lightbox-img" src="" alt="Zoom" class="max-h-[75vh] mx-auto rounded-xl shadow-2xl object-contain">
+            <p id="lightbox-caption" class="text-white text-sm font-semibold"></p>
+        </div>
+    </div>
+
+    <!-- TOAST -->
+    <div id="toast" class="fixed bottom-6 right-6 rtl:right-auto rtl:left-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-navy text-white px-6 py-3 rounded-2xl shadow-2xl flex items-center gap-3 border border-blue-400/30">
+        <svg id="toast-icon" class="ic text-cyan text-lg" aria-hidden="true"><use href="#i-circle-check"/></svg>
+        <div>
+            <h5 id="toast-title" class="font-bold text-xs uppercase tracking-wider text-cyan">Succès</h5>
+            <p id="toast-msg" class="text-xs text-slate-100">Opération effectuée avec succès.</p>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="js/app.js" defer=""></script>
+
+</body></html>
